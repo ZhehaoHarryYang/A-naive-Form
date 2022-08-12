@@ -1,0 +1,151 @@
+** start of undefined **
+
+<!<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let Me Know You Better</title>
+    <link rel="stylesheet" href="styles.css">
+  <body>
+    <h1 id="title">Let Me Know You Better</h1>
+    <p id="description">Thank you for taking the time to help us know you better</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" >Your Name: <input type="text" id="name"  required placeholder="Enter your name"/></label>
+        <label id="number-label">Input your age (Optional): <input id="number" type="number" name="age" min="13" max="100" placeholder="Enter your age"/>
+        <label id="email-label">Enter Your Email: <input type="email" id="email" required placeholder="Enter your email"/></label>
+        <label>Create a New Password for fun: <input type="password" id="number" pattern="[a-z0-5]{8,}" required placeholder="Enter your password"/></label>
+      </fieldset>
+      <fieldset>
+        <label>Would you recommend us to your friend?</label>
+        <label><input type="radio" name="recommend" class="inline" value="recom" /> Yes, Definitely !</label>
+        <label><input type="radio" name="recommend" class="inline" value="recom"/> No I will not :(</label>
+        <label>
+          <input type="checkbox" name="terms" class="inline" required value="terms" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </fieldset>
+      <fieldset>
+        </label>
+        <label>Upload a profile picture: <input type="file" name="file" /></label>
+        </label>
+        <label>How did you hear about us?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Other interviewers</option>
+            <option value="2">Online job market</option>
+            <option value="3">Peers and collegues</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        
+        <label>What are your hobbies?</label>
+        <label>
+          <input type="checkbox" name="hobbies" class="inline" value="hobby" /> Front-end Projects
+        </label>
+        <label>
+          <input type="checkbox" name="hobbies" class="inline" value="hobby" /> Front-end Projects
+        </label>
+        <label>
+          <input type="checkbox" name="hobbies" class="inline" value="hobby" /> Back-end Projects
+        </label>
+        <label>
+          <input type="checkbox" name="hobbies" class="inline" value="hobby" /> Data Visualization
+        </label>
+        <label>
+          <input type="checkbox" name="hobbies" class="inline" value="hobby" /> Play Football
+        </label>
+        <label>
+          <input type="checkbox" name="hobbies" class="inline" value="hobby" /> Play Basketball
+        </label>
+        <label>Provide a bio:
+          <textarea name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(214,200,13);
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+a {
+color: #dfdfe2;
+}
+
+
+** end of undefined **
+
