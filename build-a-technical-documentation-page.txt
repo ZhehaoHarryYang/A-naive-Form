@@ -1,0 +1,155 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python For Beginners</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#What_can_Python_do?" >What can Python do?</a></li>
+        <li><a class="nav-link" href="#Why_Python?" >Why Python?</a></li>
+        <li><a class="nav-link" href="#Hello_world" >Hello world</a></li>
+        <li><a class="nav-link" href="#Variables" >Variables</a></li>
+      </ul>
+    </nav>
+  </body>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+      <p>It is used for:</p>
+      <ul>
+        <li>web development (server-side),</li>
+        <li>software development,</li>
+        <li>mathematics,</li>
+        <li>system scripting.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="What_can_Python_do?">
+      <header>What can Python do?</header>
+      <ul>
+        <li>Python can be used on a server to create web applications.</li>
+        <li>Python can be used alongside software to create workflows.</li>
+        <li>Python can connect to database systems. It can also read and modify files.</li>
+        <li>Python can be used to handle big data and perform complex mathematics.</li>
+        <li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="Why_Python?">
+      <header>Why Python?</header>
+        <p>1. Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).</p>
+        <p>2. Python has a simple syntax similar to the English language.</p>
+        <p>3. Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</p>
+        <p>4. Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</p>
+        <p>5. Python can be treated in a procedural way, an object-oriented way or a functional way.</p>
+    </section>
+    <section class="main-section" id="Hello_world">
+      <header>Hello world</header>
+      <p>Python syntax can be executed by writing directly in the Command Line:</p>
+      <code> >>> print("Hello, World!")
+Hello, World!</code>
+    </section>
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <h2>Creating Variables</h2>
+      <p>Python has no command for declaring a variable.</p>
+      <p>A variable is created the moment you first assign a value to it.</p>
+      <code>x = 5
+            y = "John"
+            print(x)
+            print(y)</code>
+      <p>Variables do not need to be declared with any particular type, and can even change type after they have been set.</p>
+      <code>x = 4       # x is of type int
+x = "Sally" # x is now of type str
+print(x)</code>
+      <h2>Casting</h2>
+      <p>If you want to specify the data type of a variable, this can be done with casting.</p>
+      <code>x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0</code>
+      <h2>Get the Type</h2>
+      <p>You can get the data type of a variable with the type() function.</p>
+      <code>x = 5
+            y = "John"
+            print(type(x))
+            print(type(y))</code>      
+    </section>
+    <div class="break"></div>
+    <h3> If you want to learn more about Python, you can go to <a id="python-link" href="https://www.w3schools.com/python/python_variables.asp" target="_blank" />W3School Webpage</h3>
+    </main>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  min-width: 290px;
+  color: rgb(77, 138, 187);
+  background-color: #fce0a4;
+  font-family: Arial;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 250px;
+  top: 0;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(16, 42, 237, 0.802);
+}
+header {
+  color: rgb(214, 25, 25);
+  margin: 25;
+  text-align: center;
+  font-size: 2em;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 330;
+  padding: 20;
+  margin-bottom: 100px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  line-height: 1.5;
+  background-color: #ffffff;
+  padding: 10;
+  margin: 10;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 135px;
+    }
+}
+h3 {
+  font-size:0.8rem;
+}
+.break {
+  border-top: 3px solid #bbb;
+}
+
+** end of undefined **
+

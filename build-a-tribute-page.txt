@@ -1,0 +1,59 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Dr. Yuan Longping</h1>
+      <p class="brief-des">Internationally known as the 'father of hybrid rice'</p>
+      <figure id="img-div">
+        <img id="image" src="http://character.workercn.cn/html/files/2018-12/12/20181212181239395381543.jpg" />
+        <figcaption id="img-caption"> Yuan in the 1980s</figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h2 id="headline">Here are the Main Contributions of Yuan</h2>
+        <ul>
+          <li>袁隆平在中国率先开展水稻杂种优势利用研究。在他撰写的第一篇论文《水稻的雄性不孕性》中，提出了：“要想利用水稻杂种优势，首推利用雄性不孕性”。他的理论与研究实践是对经典遗传学理论的挑战，否定了水稻等“自花授粉作物没有杂种优势”的传统观点，极大地丰富了作物遗传育种的理论和技术</li>
+          <li>袁隆平解决了三系法杂交稻研究中的三大难题。一是提出用“野生稻与栽培稻进行远缘杂交”的技术方案，终于找到了培育雄性不育系的有效途径，于1973年实现了不育系、保持系和恢复系的“三系”配套。二是育成强优势的杂交水稻“南优2号”等一批组合，并在生产上大面积应用，成为世界上第一位成功利用水稻杂种优势的科学家。三是突破了制种关，过去的研究认为，水稻异交率仅2.4%，杂种一代种子产量极低，离生产要求相距甚远；国际水稻所1971年开始研究，1973年放弃，原因也就是当时在该所没有人相信可以解决制种难题。而袁隆平领导的课题组成功地解决了这一难题，制种产量逐渐提高，现在高的已达亩产300公斤以上</li>
+          <li>袁隆平提出了杂交水稻的育种发展战略，即方法上由三系到两系再到一系，程序越来越简单而效率越来越高；杂种优势水平上由品种间到亚种间再到远缘杂种优势利用，优势越来越强，促使杂交水稻一步一步向新的台阶迈进。这一思路已被国内外同行采用，并成为杂交水稻育种发展的指导思想</li>
+          <li>袁隆平解决了两系法中的一些关键技术难题。如1989年在两系法研究遇到重大挫折的时候，他提出了选育实用光温敏核不育系导致不育的起点温度指标和选育的技术策略，使两系法杂交水稻研究走出了低谷。后来又研究并提出了核心种子生产程序和冷水串灌繁殖等重大技术，使两系法杂交水稻研究最终取得成功并推广应用。他1987年起担任“863”项目两系法杂交水稻技术研究专题责任专家，主持中国性协作攻关。1995年两系法杂交水稻研究成功，两系杂交稻比同熟期三系杂交稻增产5%～10%</li>
+          <li>袁隆平设计出了以高冠层、矮穗层和中大穗为特征的超高产株型模式和培育超级杂交稻的技术路线,并在超级杂交稻研究方面连续取得重大进展。1997年，袁隆平又开展超级杂交稻研究。已于2000年、2004年、2012年分别实现中国超级稻百亩示范片亩产700公斤、800公斤、900公斤的第一期、第二期、第三期目标。2013年，他启动了百亩示范片亩产1000公斤的超级杂交稻第四期目标攻关，计划到2020年前实现目标。同时实施超级杂交稻“种三产四”丰产工程，促进科技成果的生产应用。自2007年以来取得巨大的增产、增收效应，中国已有7个省市实施，其中湖南省全省参加的县（市、区）由20个增加至2012年50个，面积达882万亩。截至2012年，累计示范推广面积2000多万亩，增产20多亿公斤，为粮食持续稳定增产做出了新的贡献</li>
+        </ul>
+        <blockquote cite="https://baike.baidu.com/item/%E8%A2%81%E9%9A%86%E5%B9%B3/43836#4" />
+          <p id="cite">"袁隆平是一位真正的耕耘者。当他还是一个乡村教师的时候，已经具有颠覆世界权威的胆识；当他名满天下的时候，却仍然只是专注于田畴。淡泊名利，一介农夫，播撒智慧，收获富足。他毕生的梦想，就是让所有人远离饥饿。"</p>
+          <cite>--中国科技评奖委员会评</cite>
+        </blockquote>
+      <h3> If you want to learn more about Yuan, you can go to his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Yuan_Longping" target="_blank" />Wikipedia Entry</h3>
+      </section>
+    </main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+ h1, h2 {
+   text-align:center;
+ }
+
+figcaption{
+  text-align: center;
+}
+.brief-des{
+  text-align: center;
+}
+ img {
+  width: 1000;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  
+}
+
+** end of undefined **
+
